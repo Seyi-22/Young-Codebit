@@ -1,0 +1,77 @@
+.logo {
+    width: 70px;
+}
+
+.hero {
+    background-image: url(Images/nguyen-khanh-ly-liiusuaISP0-unsplash\ \(1\).jpg);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    color: white;
+}
+
+.classImg{
+    width: 200px;
+}
+
+.sch-goal ul {
+    font-size: 25px;
+}
+.vision {
+    font-size: 25px;
+}
+.mission {
+    font-size: 25px;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+   }
+   .container-flex {
+    flex: 1;
+   }
+   footer {
+    background-color: #f8f9fa;
+    padding: 1rem 0;
+    margin-top: auto;
+   }
+   
+   .flex-grow-1 {
+    flex-grow: 1;
+   }
+   
+  
+  .logo {
+    width: 70px;
+  }
+  
+  .hero {
+    background-image: url(Images/nguyen-khanh-ly-liiusuaISP0-unsplash\ \(1\).jpg);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    color: white;
+  }
+  
+  .classImg{
+    width: 200px;
+  }
+  
+  .fac-img {
+    height: 200px;
+  }
+  
+  .portalInput {
+    border-radius: 10px;
+  }
+
+  #main {
+    display: none;
+  }
+
+  
+
+

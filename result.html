@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+ <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" id="examScore">
+        <div class="row">
+            <form class="bg-light">
+                <h3 class="text-center mt-3 mb-3"> Young Codebit exam score sheet</h3>
+                <label for="subject"> Maths </label>
+                <input type="num" class="form-control" id="mathScore" placeholder="Enter score here">
+                <label for="subject"> English </label>
+                <input type="text" class="form-control" id="englishScore" placeholder="Enter score here">
+                <label for="subject"> Yoruba </label>
+                <input type="text" class="form-control" id="yorubaScore" placeholder="Enter score here">
+                <label for="subject"> GSC </label>
+                <input type="text" class="form-control" id="gscScore" placeholder="Enter score here">
+                <label for="subject"> Govt </label>
+                <input type="text" class="form-control" id="govtScore" placeholder="Enter score here">
+                <button type="submit" id="r-btn" class="btn btn-primary mt-3"> Create Result </button>
+                
+            </form>
+        </div>
+    </div>
+    <br>
+
+    <main class="container mt-5" id="main">
+        <div>
+            <div>
+                <img src="Images/logo.jpg" alt="" class="logo img-fluid">
+                <a class="navbar-brand " href="#">Young <br>Codebits</a>
+            </div>
+            <h3 class="text-center mt-2 mb-5 text-dark">REPORT CARD</h3>
+            <div class=" col-md-12">
+                <label class="col-md-6" for="Name">Student Name: <input type="text"></label>
+                <label class="col-md-6" for="Class"> Class: <input type="text"></label>
+                <label class="col-md-6" for="Name">Academic Session: <input type="text"></label>
+                <label class="col-md-6" for="Class"> Teacher Name: <input type="text"></label>
+            </div>
+            <div class="mt-4">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>S/No</th>
+                            <th>Subject</th>
+                            <th>Score</th>
+                            <th>Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Math</td>
+                            <td class="rawScore"></td>
+                            <td class="grade"></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>English</td>
+                            <td class="rawScore"></td>
+                            <td class="grade"></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Yoruba</td>
+                            <td class="rawScore"></td>
+                            <td class="grade"></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>GSc</td>
+                            <td class="rawScore"></td>
+                            <td class="grade"></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Govt</td>
+                            <td class="rawScore"></td>
+                            <td class="grade"></td>
+                        </tr>
+                        <tr>
+                            <th>Total</th>
+                            <th></th>
+                            <th id="sum"></th>
+                            <th id=""></th>
+                        </tr>
+                        <tr>
+                            <th>Grade Point Average</th>
+                            <th></th>
+                            <th id="point"></th>
+                            <th id="finalGrade"></th>
+                        </tr>
+                        <tr>
+                            <th>Position</th>
+                            <th></th>
+                            <th id="Position"></th>
+                            <th></th>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+
+        </div>
+    </main>
+    
+
+
+<script src="result.js"></script> 
+</body>
+</html>
